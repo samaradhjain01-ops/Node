@@ -19,7 +19,7 @@ var ob1 = {
   },
 };
 var ob2 = {
-  name: "Gopal",
+  name: "Ashish",
   age: 31,
   salary: 16000,
   phone: ["29834982234", "9834728374"],

@@ -1,0 +1,22 @@
+
+<table>
+    test
+    <tr *ngFor="let pref of  preferences;let i = index">
+        <!-- <tr *ngFor="let pref of preferences;let i = index"> -->
+        <td (click)="click(i)">
+            <span [ngClass]="{semibold : pref.isExpand}">{{pref.name}}  {{pref.subcategory.length}} items</span>
+        </td>
+        <td class="action">
+            <!-- <div class="d-flex">
+                <button class="btn-table nowrap text-decoration-none text-nero" (click)="editPrefence(pref)">
+                    <i class="icon-pencil font-20"></i>
+                </button>
+                <button class="btn-table nowrap text-decoration-none text-nero"
+                    (click)="deleteRow(DeleteRow)">
+                    <span class="icon-trash-role-1 font-20"><span
+                            class="path1"></span><span class="path2"></span></span>
+                </button>
+            </div> -->
+        </td>
+    </tr>
+</table>

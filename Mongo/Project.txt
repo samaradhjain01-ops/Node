@@ -1,6 +1,8 @@
 
+For Mongo DB,We can use opensource => https://realm.mongodb.com
+
 Admin : 
-	1. Category
+	1. Categor
 	2. Product
 	3. Deals and Offer
 
@@ -13,3 +15,25 @@ Admin :
 
 5. Shopping Cart
 	6. Feedback
+===========================================
+
+
+	RDBMS : Schema DB
+	
+		Database
+		  Tables : Columns:Datatype
+		  	Records
+
+		Joins	
+
+	Unstructure / Bulk
+	
+	MongoDB : No Schema DB
+	
+		Database
+		   Collection
+		   	Document : ID
+			   	
+		   	
+	Schools / Colleges : GPS
+	
